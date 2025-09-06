@@ -1,9 +1,7 @@
 "use client";
-import { Collapse } from 'antd'
 import Image from 'next/image';
 import React, { useState } from 'react'
-import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
-import { IoIosArrowDropdownCircle } from 'react-icons/io'
+import { FiChevronDown } from 'react-icons/fi';
 
 export default function FreuentQuestions() {
     const items = [
@@ -41,12 +39,6 @@ export default function FreuentQuestions() {
             return;
         }
         setOpenKey(index)
-        // if (isOpen.includes(index)) {
-        //     isOpen.splice(isOpen.indexOf(index), 1)
-        //     // setIsOpen(!isOpen);
-        // } else {
-        //     setIsOpen(prev => ([...prev, index]));
-        // }
     };
     return (
         <div className='container mx-auto pb-24'>
@@ -74,7 +66,7 @@ export default function FreuentQuestions() {
                             <label className='ps-2'>DO YOU NEES ANY HELP?</label>
                         </div>
                         <h3 className='text-3xl pt-3'>
-                            Industry's frequently asked queries
+                            {"Industry's frequently asked queries"}
                         </h3>
                     </div>
                     <div className='pt-6'>
@@ -90,20 +82,6 @@ export default function FreuentQuestions() {
                                     aria-expanded={openKey == index}
                                 >
                                     <span>{item.title}</span>
-                                    {/* <svg
-                                        className={`w-5 h-5 transition-transform duration-300 ${openKey == index ? 'rotate-180' : ''} ${openKey == index ? 'text-white' : 'text-gray-600'}`}
-                                        fill="none"
-                                        stroke="currentColor"
-                                        viewBox="0 0 24 24"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            strokeLinecap="round"
-                                            strokeLinejoin="round"
-                                            strokeWidth="2"
-                                            d="M19.5 8.25l-7.5 7.5-7.5-7.5" // Chevron down icon
-                                        />
-                                    </svg> */}
                                     <div
                                         className={`w-6 h-6 rounded-full flex items-center justify-center transition-colors duration-300
                                             ${openKey == index ? 'bg-white text-primary' : 'bg-primary text-white'}

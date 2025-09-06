@@ -20,7 +20,7 @@ export default function SevicePage() {
                                         <div className='min-w-9 w-14'>
                                             <Image src="/img/icons/service-label-icon.svg" width={1200} height={1200} alt='about-us' />
                                         </div>
-                                        <p className='text-white text-2xl'>The World's Most Powerful Industry</p>
+                                        <p className='text-white text-2xl'>{"The World's Most Powerful Industry"}</p>
                                     </div>
                                 </div>
                             </div>

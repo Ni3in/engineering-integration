@@ -14,7 +14,7 @@ export default function OurUpdates() {
                         </div>
                         <div className='flex justify-between items-center w-full'>
                             <h3 className='text-4xl max-w-screen-sm'>
-                                What's going on in our blog?
+                                {"What's going on in our blog?"}
                             </h3>
                             <button className='btn btn-primary'>
                                 VIEW ALL BLOGS

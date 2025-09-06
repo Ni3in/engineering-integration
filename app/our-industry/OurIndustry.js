@@ -53,10 +53,10 @@ export default function OurIndustry() {
                                         <label className='ps-2'>WHAT WE DO FOR YOU!</label>
                                     </div>
                                     <h3 className='text-5xl max-w-screen-sm'>
-                                        Recognized as one of the World's leading Industry & Corporation!
+                                        {"Recognized as one of the World's leading Industry & Corporation!"}
                                     </h3>
                                     <p className='text-2xl'>
-                                        We serve our clients top level of trusted advisor for their busin & marketing progres. We serve our clients top level of trusted advisor for their business
+                                        {"We serve our clients top level of trusted advisor for their busin & marketing progres. We serve our clients top level of trusted advisor for their business"}
                                     </p>
                                 </div>
                                 <div className='flex flex-row h-full gap-10'>
